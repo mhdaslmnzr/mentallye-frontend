@@ -1,1 +1,1 @@
-# mentallye-frontend
+This is a sample coming soon webpage created for mentallye the mental health startup

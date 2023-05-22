@@ -34,8 +34,9 @@ html, body {
     background-color: var(--theme-color-white);
     font-family: "AdiHaus";
     font-size: 14px;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    /* width: 100vh; */
+    overflow: hidden;
 }
 
 input {
@@ -68,13 +69,13 @@ input {
     
     .logo-wrapper img {
         display: block;
-        height: 2.5rem;
+        height: 5.5rem;
         margin: 0 auto;
         width: auto;
     }
 
 .hero-banner .hero-image {
-    background-image: url(https://assets.codepen.io/6060109/athlete-girl.png);
+    background-image: url(Assets/marcel-strauss-fzqxoFJytiE-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -222,7 +223,7 @@ input {
     }
 
     .hero-image-desktop img {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+        clip-path: polygon(20% 0, 100% 0, 100% 100%,0 100%);
         height: 100%;
         object-fit: cover;
         width: 100%;
