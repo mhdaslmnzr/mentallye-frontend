@@ -1,42 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mentallye</title>
-  <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/base.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mentally-E</title>
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon.ico.png">
+    <link rel="stylesheet" href="./src/styles/base.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/styles/navbar.css">
+    <link rel="stylesheet" href="./src/styles/hero.css">
+    <link rel="stylesheet" href="./src/styles/aboutus.css">
+    <link rel="stylesheet" href="./src/styles/carousal.css">
+    <link rel="stylesheet" href="./src/styles/contact.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Animation-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Mentally-E</title>
 </head>
+
 <body>
-  <div class="mobile-container">
-    <header>
-      <section class="hero-banner">
-        <div class="logo-wrapper">
-          <img src="Assets/logo.png" alt="logo.">
+    <!-- Navbar -->
+    <nav>
+        <div class="left">
+            <a href="#hero">
+                <img class="logo" src="src/images/Meantelly-edit-PNG.png" alt="Mentallye-logo">
+            </a>
+            <a class="logo-name" href="#">Mentally-e</a>
         </div>
-        <div class="hero-image"></div>
+  
+        <div class="mid">
+  
+            <ul class="options">
+                <li>
+                    <a href="#about-us" class="ek">Our Story</a>
+                </li>
+                <li>
+                    <a href="#services" class="ek">Our Approach</a>
+                </li>
+                <li>
+                    <a href="#blog" class="ek">Blogs</a>
+                </li>
+    
+                <li>
+                    <a href="#contact" class="ek">Connect with Us</a>
+                </li>
+                
+                
+                <li>
+                    <a href="#team" class="ek">Company</a>
+                </li>
+                
+                <li>
+                    <a href="#contact" class="ek">Portfolio</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+  
+        <div >
+            <button class="button-30" role="button">Book Counselling</button>
+        </div>
+  
+        <!--Hamburger-->
+  
+        <div class="hamburger">
+            <span id="bar1"></span>
+            <span id="bar2"></span>
+            <span id="bar3"></span>
+        </div>
+  
+    </nav>
+    <!-- Assigned to @Devi -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+          <div class="info">
+            <h1 data-aos="fade-left">Mentally-e</h1>
+            <h2 data-aos="fade-right">Lorem ipsum dolor sit amet consectetur.</h2>
+            <p data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem vero ratione vitae dicta explicabo
+                perferendis amet quis provident molestiae magni!</p>
+          </div>
+        </div>
       </section>
-    </header>
-    <main>
-      <article class="text-info">
-        <h2>We're</h2>
-        <h2>Coming<br>Soon</h2>
-        <p>Hello friends! We are currently building our new startup in the mental health field. Add your email address below to stay up-to-date with announcements and our launch proposals.</p>
-        <section class = "email-signup">
-          <form>
-            <input class="email-input" type="email" required placeholder="Email Address" name="email-address">
-            <input class="email-submit" value="Go" type="submit" text="Go" for="email-address"></input>
+    <!-- Assigned to @Anandu -->
+
+    <!-- About Us -->
+    <section id="about-us" >
+        <div class="left" data-aos="flip-left">
+    
+          <h1 class="abtus-h"> About Us</h1>
+          <p class="abtus-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit animi aliquid quos laborum cupiditate doloremque ipsam fugiat doloribus deleniti quia.</p>
+
+
+        </div>
+    
+        <div class="right" data-aos="flip-right">
+    
+          <div class="grid-container">
+            <div class="item item1"><img src="src/images/aboutus-images/image2.png" alt=""></div>
+            <div class="item item2"><img src="src/images/aboutus-images/image4.png" alt=""></div>
+            <div class="item item3"><img src="src/images/aboutus-images/image1.png" alt=""></div>
+            <div class="item item4"><img src="src/images/aboutus-images/image7.jpg" alt=""></div>
+            <div class="item item5"><img src="src/images/aboutus-images/image5.webp" alt=""></div>
+            <div class="item item6"><img src="src/images/aboutus-images/image3.jpeg" alt=""></div>
+            <div class="item item7"><img src="src/images/aboutus-images/image6.jpg" alt=""></div>
+            
+          </div>
+            
+        </div>
+    
+      </section>
+    <!-- Assigned to @Devi -->
+
+    <!-- Carousal -->
+    <div class="carousal" id="#blogs" >
+
+        <div class="disorder" data-aos="fade-down">
+            <h1 class="disorder-h">Disorders</h1>
+            <p class="disorder-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione a facere rerum animi quia corrupti quas expedita impedit dolor..</p>
+        </div>
+        <div class="slide-container swiper " data-aos="fade-up">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper ">
+                    <div class="card swiper-slide ">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat deserunt eius eaque necessitatibus. Et cum nostrum sunt similique explicabo aut reprehenderit itaque maiores voluptas distinctio, dicta a fuga repellat, accusantium culpa porro! Doloremque, necessitatibus temporibus.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quibusdam nihil fuga aperiam atque repellendus. In eos, esse ut repellendus assumenda pariatur cupiditate ratione quos?/p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+    
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Lorem, ipsum.</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae!</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              
+    
+          </div>
+          
+        </div>
+
+    <!-- Assigned to @Devi -->
+
+    <!-- Contact Us -->
+    <section id="contact" >
+        <div class="contact-form"data-aos="fade-down">
+          <h1>Contact <span>Us</span></h1>
+          <p >connect us via Phone:(098)7231343 or through email:mentallyeorg@gmail.com</p>
+
+          <form action="">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="Submit" class="btn">
           </form>
-        </section>
-      </article>
-    </main>
-  </div>
-  <div class="hero-image-desktop">
-    <img src="Assets/marcel-strauss-fzqxoFJytiE-unsplash.jpg" alt="sample picture">
-  </div>
+        </div>
+        <div class="contact-img" data-aos="fade-down">
+          <img src="./src/images/kv-contact-us-xs.jpg">
+        </div>
+      </section>
+    <!-- Assigned to @Anandu -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Mentally-e</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;</p>
+        </div>
+    </footer>
+    <!-- Assigned to @Anandu -->
+
+    <!-- Custom JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./src/js/navbar.js"></script>
+    <script src="./src/js/carousal.js"></script>
+    <!-- <script src="./src/js/animation.js"></script> -->
+
+    <!-- Swiper JS -->
+    <script src="src/js/swiper-bundle.min.js"></script>
+
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./src/js/animation.js"></script>
+
+   
+
+    <script>
+        window.chatbaseConfig = {
+          chatbotId: "0IKNafF-rd8PAFQmMAOxD",
+        }
+      </script>
+      <script
+        src="https://www.chatbase.co/embed.min.js"
+        id="0IKNafF-rd8PAFQmMAOxD"
+        defer>
+      </script>
+
+
 </body>
+
+
 </html>
-
-
-
